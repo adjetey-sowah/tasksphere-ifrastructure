@@ -1,0 +1,6 @@
+template-file-path: tasksphere-ecs-infra.yaml
+parameters:
+  VPCStackName: TaskSphere-VPC
+  TaskDefinition: arn:aws:ecs:eu-central-1:831926601640:task-definition/tasksphere:1
+  ContainerPort: '5000'
+tags: {}
